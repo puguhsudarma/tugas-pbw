@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome To Reroet Blog!</title>
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>KEKUATAN <strong>HTML 5 + CSS 3</strong></h1>
+		<p>Kekuatan dua bahasa teknologi digabungkan menjadi satu teknologi. Menjadikan teknologi yang menghimpun semua informasi untuk manusia</p>
+	</header>
+
+	<nav>
+		<ul class="menu-top">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="berita.html">News</a></li>
+				<li><a href="register.html" class="active">Register</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<form action="#" method="POST">
+			<h2>Register To Reroet Blog!</h2>
+			<div class="form-control">
+				<label for="Nama">Nama Lengkap</label>
+				<input type='text' id='Nama' name='nama_lengkap' placeholder='Nama Lengkap' />
+			</div>
+
+			<div class="form-control">
+				<label for="Alamat">Alamat</label>
+				<input type='text' id='Alamat' name='alamat_lengkap' placeholder='Alamat' />
+			</div>
+
+			<div class="form-control">
+				<label for="Agama">Agama</label>
+				<select name="agama" id="Agama">
+					<option value="">- Agama -</option>
+					<option value="1">- Islam -</option>
+					<option value="2">- Hindu -</option>
+					<option value="3">- Kristen Protestan -</option>
+					<option value="4">- Kristen Katolik -</option>
+					<option value="5">- Budha -</option>
+				</select>
+			</div>
+
+			<input type="submit" value="Submit" name="submit" />
+			<input type="reset" value="Reset" name="reset" />
+		</form>
+	</div>
+
+	<footer>
+		<p>Copyright&copy; Reroet Blog! 2016</p>
+	</footer>
+</body>
+</html>

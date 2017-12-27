@@ -1,0 +1,19 @@
+/*CSS*/
+
+/*Normalize*/
+* {margin: 0;padding: 0;text-rendering: optimizeLegibility;}
+html, body {background-color: #fff;font-family: sans-serif;height: 100%;}
+a {text-decoration: none;color: #3c8cfa;}
+a:hover {color: #0000CD;}
+
+/*Form*/
+form {border-radius: 5px;background-color: #f2f2f2;padding: 40px;margin: 40px 0px;}
+form .form-control {margin: 20px 0px;}
+form .form-control label {font-weight: bold;}
+form h2 {color: #222222;font-size: 2.4em;font-weight: 100;line-height: 1.4em;margin: 0px 0px 20px 0px;}
+input[type=text], select {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;}
+input[type=submit], input[type=reset] {background-color: #4795ff;color: white;padding: 14px 30px;margin: 8px 0;border: none;border-radius: 4px;cursor: pointer;}
+input[type=reset] {-color: #4CAF50;}
+input[type=submit]:hover {background-color: #336fc1;}
+input[type=reset]:hover {background-color: #45a049;}
+form p {color: red;}

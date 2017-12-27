@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome To Reroet Blog!</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript">
+		function hello(){
+			alert("Selamat Datang...");
+		}
+		function validation(){
+			var nim = document.getElementById("Nim"),
+				msg = document.getElementById("error_nim"),
+				valid = true;
+			if(isNaN(nim.value)==true || nim.value == ""){
+				nim.style.borderColor = "red";
+				nim.focus();
+				msg.innerHTML = "Nim tidak boleh kosong.";
+				msg.style.color = "red";
+				valid = false;
+			} else {
+				nim.style.borderColor = "#ccc";
+				msg.innerHTML = "Nim Valid";
+				msg.style.color = "green";
+				valid = true;
+			}
+			return (valid && true);
+		}
+	</script>
+</head>
+<body onload="hello();">
+	<form action="#" method="POST" onsubmit="return validation();">
+		<div class="form-control">
+			<label for="Nim">*) NIM</label>
+			<input type='text' id='Nim' name='nim' placeholder='NIM' onkeyup="validation();" />
+			<p id='error_nim'></p>
+		</div>
+		<input type="submit" value="Submit" name="submit" />
+		<input type="reset" value="Reset" name="reset" />
+	</form>
+</body>
+</html>

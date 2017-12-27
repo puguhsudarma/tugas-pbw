@@ -1,0 +1,75 @@
+/*CSS*/
+
+/*Normalize*/
+* {margin: 0;padding: 0;text-rendering: optimizeLegibility;}
+html, body {background-color: #fff;font-family: sans-serif;height: 100%;}
+a {text-decoration: none;color: #3c8cfa;}
+a:hover {color: #0000CD;}
+
+/*header*/
+header {background-color: #EFEEE5;padding: 40px 140px;}
+header h1 {color: #222222;margin-bottom: 15px;font-size: 63px;font-weight: 200;}
+header p {font-size: 21px;font-weight: 200;}
+
+/*Navbar*/
+nav {padding: 0px 140px;background-color: #2a5d84;font-size: 14px;z-index: 1;}
+nav ul.menu-top {list-style-type: none;overflow: hidden;width: 100%;}
+nav ul.menu-top ul {float:right;list-style-type:none;}
+nav ul.menu-top:after {clear: both;}
+nav ul li {float: left;}
+nav ul li a {display: block;color: white;text-align: center;padding: 22px 16px;text-decoration: none;}
+nav ul li a:hover {background-color: #1f3c52;color: white;}
+nav ul li a.active {background-color: #1f3c52;}
+
+/*Logo*/
+img.logo {
+	width: 150px;
+	height: auto;
+	margin: 0px 30px;
+	position: absolute;
+	top: 170px;
+	z-index: 1;
+}
+
+/*container*/
+.container {min-height: 100%;margin-bottom: -16px;padding: 0px 140px;}
+.container:after {content: "";display: block;clear: both;}
+
+/*side menu*/
+.side-menu {width:30%;padding: 20px 0px;padding-left: 20px;float: right;}
+.side-menu article {padding-bottom: 20px;}
+.side-menu h2 {color: #222222;font-size: 2.4em;font-weight: 100;line-height: 1.4em;}
+.side-menu p {font-weight: normal;font-size: 1rem;line-height: 1.8em;color: #7D8888;text-align: justify;}
+.side-menu img {width: 70px;height: auto;float:left;margin: 0px 10px 10px 0px;}
+
+/*article*/
+section {width:60%;float:left;}
+section article {padding: 20px 0px;padding-right: 20px;}
+section article h2 {color: #222222;font-size: 2.4em;font-weight: 100;line-height: 1.4em;}
+section article p {font-weight: normal;font-size: 1rem;line-height: 1.8em;color: #7D8888;margin: 20px 0px;text-align: justify;}
+section article p img {width: 100px;height: auto;float:left;margin: 0px 10px 10px 0px;}
+section article dl dt {color: #222222;font-size: 1.5em;font-weight: 100;border-bottom: dashed #B0C3D0 1pt;margin: 1rem 0px;}
+
+/*Form*/
+form {border-radius: 5px;background-color: #f2f2f2;padding: 40px;margin: 40px 0px;}
+form .form-control {margin: 20px 0px;}
+form .form-control label {font-weight: bold;}
+form h2 {color: #222222;font-size: 2.4em;font-weight: 100;line-height: 1.4em;margin: 0px 0px 20px 0px;}
+input[type=text], select {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;}
+input[type=submit], input[type=reset] {background-color: #4795ff;color: white;padding: 14px 30px;margin: 8px 0;border: none;border-radius: 4px;cursor: pointer;}
+input[type=reset] {-color: #4CAF50;}
+input[type=submit]:hover {background-color: #336fc1;}
+input[type=reset]:hover {background-color: #45a049;}
+
+/*Contact Us*/
+.peta {width: 70%;padding: 30px 0px;float: left;}
+.peta img {width: 100%;height: auto;}
+.contact {width: 25%;padding: 100px 0px 0px 0px;text-align: right;float: right;}
+.contact h3 {color: #222222;font-size: 1.3em;font-weight: bold;line-height: 1em;}
+.contact p {padding: 10px 0px;}
+.contact p strong {display: block;margin: 20px 0px 0px 0px;}
+
+/*footer*/
+footer, .container:after{height: 16px;}
+footer {background-color: #333333;padding: 15px 140px;}
+footer p {float: right;font-size: 14px;color: #7D8888;}

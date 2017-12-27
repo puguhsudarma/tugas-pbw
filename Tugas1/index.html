@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Reroet Blog!</title>
+    <style>
+        /*Normalisasi semua margin dan padding dari browser default*/
+        * {margin: 0;padding: 0;text-rendering: optimizeLegibility;}
+        html, body {background-color: #fff;font-family: sans-serif;height: 100%;}
+    </style>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--Navigasi Menu-->
+<nav>
+    <ul class="menu-top">
+        <li><a href="#" class="active"><strong>Reroet Blog!</strong></a></li>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </ul>
+</nav>
+
+<!--Header Judul Website-->
+<header>
+    <h1>KEKUATAN <strong>HTML 5 + CSS 3</strong></h1>
+    <p>Dua teknologi bahasa yang digabungkan menjadi satu teknologi. Membangun sebuah web yang responsive dan interactive untuk diakses sebagai kebutuhan informasi.</p>
+</header>
+
+<!--Content Website-->
+<section>
+    <article>
+        <h2>HTML 5</h2>
+        <p>
+            HTML 5 adalah sebuah bahasa markah untuk menstrukturkan dan menampilkan isi dari Waring Wera Wanua, sebuah teknologi inti dari Internet. HTML5 adalah revisi kelima dari HTML dan hingga bulan Juni 2011 masih dalam pengembangan. Berikut adalah beberapa fitur tambahan dari HTML 5, yaitu sebagai berikut :
+            <dl>
+                <dt>Canvas</dt>
+                <dd>
+                    <p>Elemen kanvas adalah bagian dari HTML5 dan memungkinkan untuk dinamis, skrip render bentuk 2D dan gambar bitmap. Ini adalah tingkat rendah, model prosedural yang update bitmap dan tidak memiliki grafik adegan built-in.</p>
+                    <canvas id="myCanvas"></canvas>
+                </dd>
+
+                <dt>Video</dt>
+                <dd>
+                    <p>Spesifikasi draf HTML5 memperkenalkan elemen video untuk tujuan bermain video atau film, sebagian menggantikan elemen objek. HTML5 video dimaksudkan oleh penciptanya untuk menjadi cara standar baru untuk menampilkan video di web tanpa plugin</p>
+                    <video width="640" height="360" controls>
+                        <source src="cricle_signal_continue.mp4" type="video/mp4">
+                    </video>
+                </dd>
+
+                <dt>Audio</dt>
+                <dd>
+                    <p>HTML audio element menunjukkan sebuah sound atau audio yang dapat disisipkan pada halaman web dan diputar untuk didengarkan. Modern browser mendukung beberapa format file audio diantaranya: mp3, ogg dan wav.</p>
+                    <audio controls>
+                        <source src="Counting_Stars.mp3" type="audio/mpeg">
+                    </audio>
+                </dd>
+            </dl>
+        </p>
+    </article>
+
+    <article>
+        <h2>CSS 3</h2>
+        <p>
+            CSS 3 adalah versi Cascade Style Sheet yang terbaru, dengan beberapa fitur tambahan. CSS 3 adalah versi CSS terbaru yang masih dikembangkan oleh W3C. Berikut beberapa contoh kode CSS 3, yaitu sebagai berikut :
+            <dl>
+                <dt>Text Shadow</dt>
+                <dd><p><code>text-shadow</code> adalah kode untuk membuat sebuah teks memiliki bayangan yang bisa diatur, mulai dari warna, ketebalan bayangan, dll. Kode untuk <code>text-shadow</code> hanya bisa didukung oleh CSS3.</p></dd>
+
+                <dt>Responsive Rules</dt>
+                <dd><p><code>@media</code> merupakan sebuah kode query untuk menjalankan beberapa kode CSS yang dengan kondisi tertentu. Kondisi yang dimaksud bisa berupa nilai lebar suatu perangkat untuk membuka website tersebut. <code>@media</code> biasa digunakan untuk membuat website menjadi responsive pada semua perangkat seperti PC, Laptop, Mobile, dll.</p></dd>
+            </dl>
+        </p>
+    </article>
+</section>
+
+<!--Footer Website-->
+<footer>
+    <p>Copyright&copy; <strong>Reroet Blog!</strong> 2016</p>
+</footer>
+
+<!--Script Canvas-->
+<script>
+    var canvas = document.getElementById("myCanvas"),
+        ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#555";
+        ctx.fillRect(0, 0, 300, 150);
+</script>
+</body>
+</html>

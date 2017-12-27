@@ -1,0 +1,28 @@
+/*Navbar*/
+nav {padding: 0px 140px;background-color: #2a5d84;font-size: 14px;top:0;}
+nav ul.menu-top {list-style-type: none;overflow: hidden;width: 100%;}
+nav ul.menu-top ul {float:right;list-style-type:none;}
+nav ul.menu-top:after {clear: both;}
+nav ul li {float: left;}
+nav ul li a {display: block;color: white;text-align: center;padding: 22px 16px;text-decoration: none;}
+nav ul li a:hover {background-color: #1f3c52;}
+nav ul li a.active {background-color: #1f3c52;}
+
+/*header*/
+header {background-color: #EFEEE5;padding: 40px 140px;}
+header h1 {color: #222222;margin-bottom: 15px;font-size: 63px;font-weight: 200;}
+header p {font-size: 21px;font-weight: 200;}
+
+/*article*/
+section {min-height: 100%;margin-bottom: -16px;padding: 0px 140px;}
+section:after {content: "";display: block;}
+article {padding: 20px 0px;}
+article h2 {color: #222222;font-size: 2.4em;font-weight: 100;line-height: 1.4em;}
+article p {font-weight: normal;font-size: 1rem;line-height: 1.8em;color: #7D8888;}
+article dl dt {color: #222222;font-size: 1.5em;font-weight: 100;border-bottom: dashed #B0C3D0 1pt;margin: 1rem 0px;}
+code {font-family: monospace;font-size: 1em;padding: 2px 4px;font-size: 90%;color: #fff;background-color: #333;border-radius: 3px;-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);}
+
+/*footer*/
+footer, section:after{height: 16px;}
+footer {background-color: #333333;padding: 15px 140px;}
+footer p {float: right;font-size: 14px;color: #7D8888;}
